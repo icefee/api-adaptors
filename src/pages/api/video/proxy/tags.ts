@@ -11,7 +11,7 @@ export const GET: APIRoute = async ({ url }) => {
         function () {
             return {
                 name: $(this).text(),
-                value: $(this).attr('data-cat-id')
+                value: +$(this).attr('data-cat-id')!
             }
         }
     ).get()
@@ -19,7 +19,7 @@ export const GET: APIRoute = async ({ url }) => {
         function () {
             return {
                 name: $(this).text(),
-                value: $(this).attr('data-tag-id')
+                value: +$(this).attr('data-tag-id')!
             }
         }
     ).get()
