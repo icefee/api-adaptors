@@ -10,7 +10,7 @@
     "generate-types": "wrangler types"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^13.2.1",
+    "@astrojs/netlify": "^7.0.8",
     "astro": "^6.1.9",
     "cheerio": "^1.2.0"
   },
