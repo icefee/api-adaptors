@@ -1,0 +1,24 @@
+{
+  "name": "api-adaptors",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "generate-types": "wrangler types"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^13.2.1",
+    "astro": "^6.1.9",
+    "cheerio": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "wrangler": "^4.84.1"
+  },
+  "overrides": {
+    "vite": "^7"
+  }
+}
